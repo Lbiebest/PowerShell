@@ -1,0 +1,6 @@
+# 模块
+Modules/
+Scripts/
+
+# 其他文件
+powershell.config.json
