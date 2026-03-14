@@ -1,6 +1,12 @@
 # PowerShell 配置与脚本集合
+- [PowerShell 配置与脚本集合](#powershell-配置与脚本集合)
+  - [目录结构](#目录结构)
+  - [快速使用](#快速使用)
+  - [功能概览](#功能概览)
+  - [依赖与可选工具](#依赖与可选工具)
+  - [注意事项](#注意事项)
 
-[toc]
+
 
 这是一个面向 Windows 11 + PowerShell 7 的个人终端配置仓库，包含两个 Profile 脚本以及若干高频命令增强与实用函数。主目标是提升交互效率、命令可读性和开发者日常操作体验。
 
@@ -15,7 +21,7 @@
 2. 重新打开 PowerShell 或执行 `rlp` 重新加载配置。
 3. 在 VS Code 集成终端中，`Microsoft.VSCode_profile.ps1` 会自动生效。
 
-## 管理脚本
+<!-- ## 管理脚本
 
 `manage.ps1` 用于安装、卸载、导出和配置 Profile 文件，支持按需指定目录并自动备份。
 
@@ -42,7 +48,7 @@
 .\manage.ps1 config set ProfileDir D:\Documents\PowerShell
 .\manage.ps1 export
 .\manage.ps1 uninstall -Force
-```
+``` -->
 
 ## 功能概览
 
